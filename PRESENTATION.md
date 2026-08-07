@@ -353,8 +353,8 @@ style: |
    */
   .clients {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 25px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
 
     margin-top: 22px;
   }
@@ -372,9 +372,10 @@ style: |
     display: block;
 
     width: 100%;
-    height: 390px;
+    height: auto;
+    aspect-ratio: 16 / 9;
 
-    object-fit: contain;
+    object-fit: cover;
 
   }
 
@@ -694,9 +695,17 @@ The critical implementation then only needs to call a handful of well-understood
 
 <div class="client">
 
-## BOWSER STANDALONE CLIENT
+## BOWSER STANDALONE
 
 ![Bowser standalone client](assets/bowser-client.png)
+
+</div>
+
+<div class="client">
+
+## ELECTRUM
+
+![Electrum watch-only client](assets/electrum.png)
 
 </div>
 
@@ -710,6 +719,8 @@ It can remain a very simple signing device while a watch-only client handles bal
 There is an LNbits extension for people already using the LNbits ecosystem.
 
 There is also a standalone Bowser client which runs as a browser-local watch-only wallet.
+
+Electrum can also be used as a mature FLOSS watch-only client.
 
 The important separation is that the private keys stay on the Bowser hardware.
 -->
