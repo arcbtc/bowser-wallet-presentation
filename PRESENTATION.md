@@ -422,6 +422,42 @@ style: |
       5px 5px 0 rgba(0, 100, 30, 0.22);
   }
 
+  /*
+   * Opening cover slide.
+   */
+  section.cover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 34px;
+    text-align: center;
+  }
+
+  section.cover::after {
+    display: none;
+  }
+
+  section.cover p {
+    margin: 0;
+  }
+
+  section.cover img {
+    display: block;
+    width: 650px;
+    height: auto;
+  }
+
+  section.cover h1 {
+    font-size: 88px;
+    line-height: 0.94;
+    letter-spacing: -5px;
+    margin: 0;
+    text-shadow:
+      0 0 18px rgba(24, 239, 76, 0.11),
+      5px 5px 0 rgba(0, 100, 30, 0.22);
+  }
+
   section::footer {
     color: #59665e;
     font-size: 13px;
@@ -432,6 +468,12 @@ style: |
     font-size: 14px;
   }
 
+
+---
+
+<!-- _class: cover -->
+
+![Bowser Wallet](assets/logo.png)
 
 ---
 
@@ -549,8 +591,7 @@ Secure elements have always been lower on the list in my own security model beca
 ### TOUGH/RESILIENT
 
 - ESP32 devices are incredibly durable
-- Used for long-running remote sensor projects
-- Researchers leave them beside glaciers for years
+- Used for long-running remote sensor projects (esearchers leave them beside glaciers taking measurements for years)
 - Off-the-shelf and easy to source hardware
 
 ![Glacier research](assets/glacier.jpg)
