@@ -576,7 +576,7 @@ For Bowser that combination is ideal: cheap, replaceable, widely available hardw
 
 ---
 
-## BOWSER WALLET // TWO MODES
+## BOWSER WALLET // TWO MODES SAME HARDWARE
 
 # CONNECTED OR AIR-GAPPED
 
