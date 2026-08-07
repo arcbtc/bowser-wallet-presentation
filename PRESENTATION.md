@@ -680,7 +680,7 @@ The critical implementation then only needs to call a handful of well-understood
 
 ## WATCH-ONLY CLIENTS
 
-# SIMPLE CLIENTS
+# RUN LOCALLY & FLOSS
 
 <div class="clients">
 
