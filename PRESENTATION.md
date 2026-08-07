@@ -187,7 +187,7 @@ style: |
    * Generic image treatment.
    */
   img {
-    border-radius: 14px;
+    border-radius: 0;
   }
 
   /*
@@ -224,12 +224,6 @@ style: |
 
     object-fit: cover;
 
-    border: 1px solid var(--border);
-
-    background: var(--panel);
-
-    box-shadow:
-      0 10px 28px rgba(0, 0, 0, 0.35);
   }
 
   .images-4 {
@@ -247,7 +241,7 @@ style: |
   }
 
   .images-4 p:first-child img {
-    object-fit: cover;
+    object-fit: contain;
   }
 
   .images-3 > p:first-child,
@@ -314,12 +308,6 @@ style: |
 
     object-fit: contain;
 
-    border: 1px solid var(--border);
-
-    background: var(--panel);
-
-    box-shadow:
-      0 10px 28px rgba(0, 0, 0, 0.3);
   }
 
   /*
@@ -334,17 +322,7 @@ style: |
   }
 
   .mode {
-    background:
-      linear-gradient(
-        145deg,
-        rgba(15, 24, 17, 0.97),
-        rgba(5, 9, 6, 0.99)
-      );
-
-    border: 1px solid var(--border);
-    border-radius: 18px;
-
-    padding: 18px 21px;
+    padding: 0;
 
     min-width: 0;
   }
@@ -368,10 +346,6 @@ style: |
 
     object-fit: contain;
 
-    background: #030604;
-
-    border: 1px solid #19251c;
-    border-radius: 11px;
   }
 
   /*
@@ -402,12 +376,6 @@ style: |
 
     object-fit: contain;
 
-    background: #030604;
-
-    border: 1px solid var(--border);
-
-    box-shadow:
-      0 12px 30px rgba(0, 0, 0, 0.35);
   }
 
   /*
