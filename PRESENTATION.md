@@ -479,7 +479,7 @@ style: |
 
 ## 2019 // GENESIS
 
-# FROM HACKSPACE TO HARDWARE WALLET (2019)
+# FROM HACKSPACE TO HARDWARE WALLET
 
 Stephen Snigirev + uBitcoin + ESP32 + adhoc hackspace at BTCConf.
 
@@ -518,7 +518,7 @@ We also committed ourselves to nurturing a maker scene and encouraging Bitcoiner
 
 ## 2020 // OPEN HARDWARE
 
-# THE BOWSER WALLET WAS BORN (2020)
+# THE BOWSER WALLET WAS BORN
 
 Completely FLOSS. Beta & educational to community FLOSS hardware wallet.
 
