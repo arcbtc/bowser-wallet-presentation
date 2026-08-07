@@ -250,6 +250,30 @@ style: |
     object-fit: cover;
   }
 
+  .images-3 > p:first-child,
+  .images-4 p:not(:first-child) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .images-3 > p:first-child img,
+  .images-4 p:not(:first-child) img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .images-3 .image-stack {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+    min-width: 0;
+    min-height: 0;
+  }
+
   .images-2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -447,7 +471,7 @@ style: |
 
 # FROM HACKSPACE TO HARDWARE WALLET (2019)
 
-uBitcoin + ESP32 + adhoc hackspace at BTCConf.
+Stephen Snigirev + uBitcoin + ESP32 + adhoc hackspace at BTCConf.
 
 <div class="images-3">
 
@@ -455,7 +479,13 @@ uBitcoin + ESP32 + adhoc hackspace at BTCConf.
 
 ![Bitcoin conference hackspace](assets/hackspace.jpg)
 
+<div class="image-stack">
+
 ![Specter Wallet](assets/spector.png)
+
+![ESP32](assets/esp32.jpg)
+
+</div>
 
 </div>
 
@@ -529,7 +559,7 @@ Secure elements have always been lower on the list in my own security model beca
 
 ## HARDWARE STACK
 
-# SIMPLE HARDWARE EXCELLENT ENTROPY.
+# ESP32. SIMPLE HARDWARE EXCELLENT ENTROPY.
 
 <div class="hardware">
 
